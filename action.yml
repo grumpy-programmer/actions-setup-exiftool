@@ -1,0 +1,10 @@
+name: 'Setup ExifTool'
+description: 'Setup ExifTool meta information reader/writer'
+author: 'Grumpy Programmer'
+inputs:
+  version:
+    description: ''
+    default: 'latest'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
